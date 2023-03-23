@@ -8,7 +8,7 @@
  * @version 1.0
  * @since 21/03/2023
  */
-package edu.julia.synthax;
+package edu.julia.synthaxjava;
 
 public class User {
     public static void main(String[] args) {

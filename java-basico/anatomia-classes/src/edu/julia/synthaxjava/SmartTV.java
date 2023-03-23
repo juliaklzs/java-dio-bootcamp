@@ -1,4 +1,4 @@
-package edu.julia.synthax;
+package edu.julia.synthaxjava;
 
 public class SmartTV {
     boolean isOn = false;
