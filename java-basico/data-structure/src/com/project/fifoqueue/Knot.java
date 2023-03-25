@@ -1,15 +1,14 @@
 package com.project.fifoqueue;
 
-public class Knot {
+public class Knot<T> {
 
-    private Object object;
-    private Knot refKnot;
+    private T object;
+    private Knot<T> refKnot;
 
     public Knot() {
-
     }
 
-    public Knot(Object object) {
+    public Knot(T object) {
         this.refKnot = null;
         this.object = object;
     }
@@ -18,7 +17,7 @@ public class Knot {
         return object;
     }
 
-    public void setObject(Object object) {
+    public void setObject(T object) {
         this.object = object;
     }
 
